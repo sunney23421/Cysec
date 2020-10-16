@@ -1,0 +1,393 @@
+//sass main.scss main.css
+$theme-colors: (
+  "primary": black,
+  "secondary": #008dd2,
+  "dark": #18181a,
+);
+
+.box-outline {
+  border-radius: 10px;
+}
+
+.nav-front {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 23px;
+  color: #008dd2;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Rajdhani", sans-serif;
+}
+.head {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 100px;
+  font-size: 10vw;
+  color: #008dd2;
+}
+
+.title {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600px;
+  font-size: 50px;
+  color: #008dd2;
+}
+.display-sp {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600px;
+  font-size: 100px;
+  color: #008dd2;
+}
+
+.h1 {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600px;
+  font-size: 50px;
+  color: #008dd2;
+}
+.h2 {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500px;
+  font-size: 40px;
+  color: #008dd2;
+}
+.h3 {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400px;
+  font-size: 30px;
+  color: #008dd2;
+}
+.h4 {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 300px;
+  font-size: 20px;
+  color: #008dd2;
+}
+.h5 {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 200px;
+  font-size: 10px;
+  color: #008dd2;
+}
+.d1{
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 800px;
+  font-size: 100px;
+  color: #008dd2;
+}
+.d2{
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500px;
+  font-size: 90px;
+  color: #008dd2;
+}
+.d3{
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400px;
+  font-size:80px;
+  color: #008dd2;
+}
+.d4{
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 300px;
+  font-size: 70px;
+  color: #008dd2;
+}
+.d5{
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 200px;
+  font-size: 60px;
+  color: #008dd2;
+}
+.p1 {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 100px;
+  font-size:25px;
+  color: #fff;
+}
+.p2 {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 100px;
+  font-size: 23px;
+  color: #008dd2;
+}
+.p3 {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 100px;
+  font-size: 22px;
+  color: #008dd2;
+}
+
+
+
+.spacer1 {
+  height: 100px;
+}
+.spacer2 {
+  height: 200px;
+}
+.spacer3 {
+  height: 300px;
+}
+.spacer4 {
+  height: 400px;
+}
+.section-sp{
+  height: 300px;
+}
+.text-indent {
+  text-indent: 50px;
+}
+
+.productBox {
+  text-align: center;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.774);
+}
+.productTitle {
+  font-size: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #008dd2;
+}
+
+.productSub {
+  font-size: 20px;
+  color: white;
+}
+
+.productExplan {
+  font-size: 15px;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.navbar {
+  min-height: 80px;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+  }
+}
+
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+
+
+
+//produce bg
+.bg {
+  /* The image used */
+  background-image: url(/assets/product/product_bg.png);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-inv {
+  /* The image used */
+  background-image: url(/assets/investor/investor_bg.png);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-blog {
+  /* The image used */
+  background-image: url(/assets/recentblog/bg.png);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+//Vidio backgroung
+header {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//preloader
+
+.preloader {
+  background-color: #0a0a0a;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999999;
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+  margin: 0 auto;
+}
+.preloader .preloader-circle {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border-style: solid;
+  border-width: 5px;
+  border-top-color: #0089d1;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  z-index: 10;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 1px 5px 0 rgba(35, 181, 185, 0.15);
+  box-shadow: 0 1px 5px 0 rgba(35, 181, 185, 0.15);
+  background-color: #fff;
+  -webkit-animation: zoom 2000ms infinite ease;
+  animation: zoom 2000ms infinite ease;
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+}
+.preloader .preloader-circle2 {
+  border-top-color: #0078ff;
+}
+.preloader .preloader-img {
+  position: absolute;
+  top: 50%;
+  z-index: 200;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding-top: 6px;
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+}
+.preloader .preloader-img img {
+  max-width: 55px;
+}
+.preloader .pere-text strong {
+  font-weight: 800;
+  color: #dca73a;
+  text-transform: uppercase;
+}
+@-webkit-keyframes zoom {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+  }
+}
+
+
+
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+.main-form {
+  width: 450;
+  margin: auto;
+}
