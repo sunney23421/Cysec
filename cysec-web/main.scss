@@ -25,7 +25,7 @@ body {
 }
 .head {
   font-family: "Rajdhani", sans-serif;
-  font-weight: 100px;
+  font-weight: 800px;
   font-size: 10vw;
   color: #008dd2;
 }
@@ -39,7 +39,7 @@ body {
 .display-sp {
   font-family: "Rajdhani", sans-serif;
   font-weight: 600px;
-  font-size: 100px;
+  font-size: 10vw;
   color: #008dd2;
 }
 
@@ -52,7 +52,7 @@ body {
 .h2 {
   font-family: "Rajdhani", sans-serif;
   font-weight: 500px;
-  font-size: 40px;
+  font-size: 40vw;
   color: #008dd2;
 }
 .h3 {
@@ -136,8 +136,13 @@ body {
 .spacer4 {
   height: 400px;
 }
+.spacer5 {
+  height: 500px;
+}
+
+
 .section-sp{
-  height: 300px;
+  height: 800px;
 }
 .text-indent {
   text-indent: 50px;
